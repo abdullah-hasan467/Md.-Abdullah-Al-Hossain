@@ -378,6 +378,111 @@ p {
 }
 /* End Services Section */
 
+
+
+
+/* Grants And Sponserships Section */
+#Grants .services {
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#Grants .service-top {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#Grants .service-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+#Grants .service-item {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(./img/img-1.png);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#Grants .service-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.9;
+  z-index: -1;
+}
+#Grants .service-bottom .icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+#Grants .service-item h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#Grants .service-item p {
+  color: white;
+  text-align: left;
+}
+
+
+/* End Services Section */
+
+
+
+
+
+/* Research Section */
+#Research .Certifications {
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+  
+}
+#Research .Certifications-top {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.info{
+  margin-top: 50px;
+  font-size: 24px;
+}
+.text-sm{
+  font-size: 10px;
+}
+
+
+/* End Certification Section */
+
+
+
+
+
+
+
+
 /* Certification Section */
 #Certifications .Certifications {
   flex-direction: column;
@@ -451,6 +556,111 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 
 
 /* End Certification Section */
+
+
+
+/* Publications Section */
+
+#Publications .Certifications-top {
+  max-width: 500px;
+  margin: 0 auto;
+}
+ 
+#Publications  .ol{
+  width: 100%;
+}
+
+#Publications  .li{
+ font-size: 18px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.text-lg{
+  font-size: 12px;
+}
+.text-sm{
+  font-size: 10px;
+}
+
+
+/* End Publications Section */
+
+
+
+
+
+
+
+
+
+/* Experience */ 
+#Experience .Certifications {
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#Experience .Certifications-top {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#Experience .Certifications-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+#Experience .Certifications-item {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(./img/img-1.png);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#Experience .Certifications-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  opacity: 0.9;
+  z-index: -1;
+}
+#Experience .Certifications-bottom .icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+#Experience .Certifications-item h2 {
+  font-size: 2rem;
+  color: rgb(15, 15, 15);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#Experience .Certifications-item p {
+  color: rgb(12, 12, 12);
+  text-align: left;
+  
+}
+
+
+/* End of Experience */
+
+
 
 /* Projects section */
 #projects .projects {
