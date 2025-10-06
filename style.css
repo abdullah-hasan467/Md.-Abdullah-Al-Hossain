@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 html {
   font-size: 10px;
@@ -11,6 +12,13 @@ html {
 }
 a {
   text-decoration: none;
+}
+.Review{
+  
+  font-size: 20px;
+  margin-top:50px;
+  margin-bottom:50px;
+  color: green;
 }
 .container {
   min-height: 100vh;
@@ -24,6 +32,7 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
 p {
   color: black;
   font-size: 1.4rem;
@@ -240,13 +249,13 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url(Hossain.jpg);
+  background-image: url(Hossain.png);
   background-size: cover;
   background-position: top center;
   position: relative;
   z-index: 1;
   /* Added properties for responsiveness */
-  min-height: 100vh; /* Set minimum height to viewport height */
+  min-height: 150vh; /* Set minimum height to viewport height */
   overflow: hidden; /* Hide overflowing content */
 }
 
@@ -561,26 +570,57 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 
 /* Publications Section */
 
-#Publications .Certifications-top {
-  max-width: 500px;
-  margin: 0 auto;
-}
- 
-#Publications  .ol{
-  width: 100%;
-}
+ #Publications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 0; /* override previous margin */
+  }
 
-#Publications  .li{
- font-size: 18px;
- margin-top: 20px;
- margin-bottom: 20px;
-}
-.text-lg{
-  font-size: 12px;
-}
-.text-sm{
-  font-size: 10px;
-}
+  .Certifications.container {
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+
+  .journal,
+  .conference {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 30px 0;
+    text-align: justify;
+  }
+
+  .journal {
+    color: blue;
+    text-align: justify;
+  }
+
+  .conference {
+    color: red;
+    text-align: justify;
+  }
+
+  .ol {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .li {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
 
 
 /* End Publications Section */
@@ -911,6 +951,31 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 #footer .social-item:hover img {
   filter: grayscale(0);
 }
+
+
+
+
+
+/* .journal {
+  margin-top: 30px;
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: blue;
+
+}
+
+.conference {
+  margin-top: 40px;
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: red;
+
+} */
+
+
+
+
+
 #footer p {
   color: white;
   font-size: 1.3rem;
@@ -960,11 +1025,32 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   h1.section-title {
     font-size: 6rem;
   }
+   .video {
+    width:70%;
+    height: auto;
+  }
 
   /* Hero */
   #hero h1 {
     font-size: 7rem;
   }
+
+  .section-title {
+      font-size: 6rem;
+    }
+
+    .journal,
+    .conference {
+      font-size: 2.6rem;
+      margin: 50px 0;
+    }
+
+    .li {
+      font-size: 1.4rem;
+      max-width: 900px;
+      margin: 0 auto 30px;
+    }
+
   /* End Hero */
 
   /* Services Section */
