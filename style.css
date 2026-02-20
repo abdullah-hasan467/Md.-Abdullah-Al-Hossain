@@ -249,7 +249,7 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url(Hossain.png);
+  background-image: url(./111111.png);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -1045,12 +1045,23 @@ background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
       margin: 50px 0;
     }
 
+    .conferences {
+      font-size: 2.6rem;
+      margin: 50px 0;
+      color: lightsalmon;
+    }
+
     .li {
       font-size: 1.4rem;
       max-width: 900px;
       margin: 0 auto 30px;
     }
 
+    .emailMe{
+      text-align: center;
+      justify-items: center;
+      color: red
+    }
   /* End Hero */
 
   /* Services Section */
